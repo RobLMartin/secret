@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Message from "./Message";
 import { Reset } from "./Button";
 import Answers from "./Answers";
+
 const Dialog = ({ setPlay = noop => noop }) => {
   const [index, setIndex] = useState(0);
   const [temp, setTemp] = useState(null);
@@ -42,7 +43,7 @@ const Dialog = ({ setPlay = noop => noop }) => {
     2: {
       message: "Oh, Bert Farlander, you old so-and-so..",
       answers: [
-        { option: "You thought I forgot... Never gonna.....", response: "fin" }
+        { option: "You thought I forgot... Never gonna..", response: "fin" }
       ]
     }
   };

@@ -6,11 +6,12 @@ const Button = styled.button`
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 2rem;
   font-weight: 600;
+  padding-left: 0.5em;
   &:hover {
     background-color: ${p => p.theme.contrast};
   }
