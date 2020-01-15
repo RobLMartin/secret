@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 
-const FinalMessage = () => {
+const FinalMessage = ({ message = "Happy Birthday, Bobby Ray Cornn Jr!" }) => {
   return (
     <Container>
-      <Text>Happy Birthday, Bobby Ray Cornn Jr!</Text>
+      <Text>{message}</Text>
     </Container>
   );
 };

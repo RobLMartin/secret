@@ -22,9 +22,11 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <Background />
+        {/* 
         <Video play={play} />
         {play && <FinalMessage />}
-        {!play && <Dialog setPlay={setPlay} />}
+        {!play && <Dialog setPlay={setPlay} />} */}
+        <FinalMessage message="We'll be back..." />
       </ThemeProvider>
     </div>
   );
